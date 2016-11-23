@@ -7,7 +7,7 @@ Exercício Angular + Angular material
 - devemos simular uma tela de login
 - o botão de login deve subir um alert dialog similar a este: https://material.angularjs.org/HEAD/demo/dialog
 - o código deve ser "compilado" com browserify
-- opcionalmente, os css necessários devem ser importados com o browserify-css: https://www.npmjs.com/package/browserify-css
+- opcionalmente, os css necessários devem ser importados com o browserify-css: https://www.npmjs.com/package/browserify-css.
   Caso deseje não usar o transform acima, basta colocar os css referenciados no index.html
 - o javascript construído pelo browserify deve se chamar build.js
 - o servidor de prototipação budo deve constar num npm script. Batize o script como dev (para rodar com npm run dev)
@@ -15,6 +15,8 @@ Exercício Angular + Angular material
 - a caixa de login deve ser um panel centralizado no meio da tela. faça uso das estratégias de layout do angular-material para conseguir isso: https://material.angularjs.org/HEAD/layout/alignment
 - A entrega é um repositório git onde se possa fazer clone, executar npm run dev na linha de comando e o budo executar um servidor e abrir a tela solicitada automaticamente
 
+
+Comandos úteis
 
 - npm init
 - npm install angular --save
